@@ -194,15 +194,30 @@ No CSs required fir tyhat part of code,  because everything defined above alread
 HTML part:\
 Inside the "videos" div:
 
-"h1": This sets a heading for the section, indicating "Recommended."\
-"div class='videos_conatiner'": This div contains video content.\
-"div class='video'": Each div represents a single video.\
-"div class='video_thumbnail'": Inside the video div, this div contains the video's thumbnail.\
-"img src='URL' alt=''": An image is shown with a URL and an empty alt attribute.
+"h1": This heading signifies the "Recommended" section.\
+"div class='videos_conatiner'": Within the "videos" section, there's a div to hold video content.
 
 CSS part:
 
+.videos:
 
+Utilizes a light gray background color.\
+Takes up the full width and height of its container.\
+Allows vertical scrolling overflow.\
+Adds padding on top and bottom (15px) and on the sides (15px).\
+Displays a top border (1px) with a light gray color.
+
+h1:
+
+Sets the font size to 20px.\
+Adds a bottom margin of 10px.\
+Specifies the text color as a dark gray shade.
+
+.videos_container:
+
+Uses flexbox for layout.\
+Arranges elements in a row, with equal spacing around them.\
+Enables wrapping of elements to the next line when needed.\
 ![image](https://github.com/Mayankkatheriya/Assignment_8-YouTube_UI/assets/128832286/ce5404d1-d28c-4d1a-bfa8-473816a7dea9)
 \
 \
@@ -211,10 +226,27 @@ CSS part:
 ![image](https://github.com/Mayankkatheriya/Assignment_8-YouTube_UI/assets/128832286/504f3e80-f8b0-4d21-9cb7-91f53c9c7575)
 
 HTML part:\
+Within the "videos" div:
 
+"div class='video'": This div represents a single video.\
+"div class='video_thumbnail'": Inside the video div, this div contains the video's thumbnail.\
+"img src='URL' alt=''": An image is displayed with a URL and an empty alt attribute.
 
 CSS part:
 
+.video:
+
+Sets a fixed width of 310px for the video element.\
+Adds a bottom margin of 30px.
+
+.video_thumbnail:
+
+Occupies the entire width (100%) and has a fixed height of 170px.
+
+.video_thumbnail img:
+
+Resizes the image to cover the entire container (object-fit: cover).\
+Ensures the image takes up the full height and width (100%).\
 ![image](https://github.com/Mayankkatheriya/Assignment_8-YouTube_UI/assets/128832286/c657b782-6b81-4e9c-a54e-7083505c844a)
 \
 \
@@ -223,10 +255,26 @@ CSS part:
 ![image](https://github.com/Mayankkatheriya/Assignment_8-YouTube_UI/assets/128832286/e654ac6b-d36f-493d-944d-d94039166257)
 
 HTML part:\
+Within the "video" div:
 
+"div class='video_details'": Inside the video div, this div holds video details.\
+"div class='author'": Within the video details div, this div represents the author.\
+"img src='URL' alt=''": An image is displayed with a URL and an empty alt attribute.
 
 CSS part:
 
+.video_details:
+
+Uses flexbox for layout in a row direction.\
+Adds a top margin of 5px.
+
+.author img:
+
+Applies styles to an image element within elements with the class "author."\
+Resizes the image to cover the container (object-fit: cover).\
+Adds a border-radius to make the image circular (50%).\
+Sets a fixed height and width of 40px.\
+Adds a right margin of 10px.\
 ![image](https://github.com/Mayankkatheriya/Assignment_8-YouTube_UI/assets/128832286/8d35a77c-c06d-498e-9df0-4193c2b90c6d)
 \
 \
@@ -235,10 +283,33 @@ CSS part:
 ![image](https://github.com/Mayankkatheriya/Assignment_8-YouTube_UI/assets/128832286/3bdf80ee-9fa7-4b52-845a-20c802ca7a32)
 
 HTML part:\
+Inside the "video" div:
 
+"div class='title'": Within the video div, this div represents the title section.\
+"h3": Inside the title div, this heading contains the video title and description.\
+"a href=''": A link is provided for the video source, likely the channel or creator.\
+"span": A span element holds additional information about the video.
 
 CSS part:
 
+.title:
+
+Uses flexbox for layout in a column direction, stacking its child elements vertically.
+
+title h3:
+
+Styles h3 elements within the .title section.\
+Sets the text color to a dark gray shade.\
+Adjusts the line height to 18px.\
+Sets the font size to 14px.\
+Adds a bottom margin of 6px.
+
+.title a, span:
+
+Styles both a and span elements within the .title section.\
+Removes text underline (text-decoration: none).\
+Sets the text color to a medium gray shade.\
+Sets the font size to 14px.\
 ![image](https://github.com/Mayankkatheriya/Assignment_8-YouTube_UI/assets/128832286/6f851718-28a0-42e9-839f-030f0262a88c)
 \
 \
