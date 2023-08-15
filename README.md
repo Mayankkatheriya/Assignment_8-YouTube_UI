@@ -192,9 +192,16 @@ No CSs required fir tyhat part of code,  because everything defined above alread
 ![image](https://github.com/Mayankkatheriya/Assignment_8-YouTube_UI/assets/128832286/19ec6484-eff2-47f1-8e5d-0dbb317f41a0)
 
 HTML part:\
+Inside the "videos" div:
 
+"h1": This sets a heading for the section, indicating "Recommended."\
+"div class='videos_conatiner'": This div contains video content.\
+"div class='video'": Each div represents a single video.\
+"div class='video_thumbnail'": Inside the video div, this div contains the video's thumbnail.\
+"img src='URL' alt=''": An image is shown with a URL and an empty alt attribute.
 
 CSS part:
+
 
 ![image](https://github.com/Mayankkatheriya/Assignment_8-YouTube_UI/assets/128832286/ce5404d1-d28c-4d1a-bfa8-473816a7dea9)
 \
